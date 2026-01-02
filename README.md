@@ -15,7 +15,7 @@ A simple command-line interface (CLI) application to track and manage your tasks
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/MrRaffs/task-cli/edit/main/README.md
 cd task-cli
 ```
 
