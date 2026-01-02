@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "commander": "^14.0.2"
+  },
+  "name": "task-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "task-cli.js",
+  "bin": {
+    "task-cli": "task-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
