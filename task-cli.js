@@ -106,7 +106,7 @@ async function updateTask(id, newDescription){
     tasks[index].description = newDescription;
     tasks[index].updatedAt = getTime();
     
-    console.log(tasks[index])
+    printTask(tasks[index]);
 
     writeDB();
 }
