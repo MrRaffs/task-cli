@@ -119,15 +119,15 @@ async function deleteTask(id){
 
     await readDB();
     
-    const index = tasks.findIndex(task => task.id === id);
+    const index = tasks.findIndex(task => task.id === id); //self explanatory
     if(index === -1) {
         console.log('ID not found');
         return;
     }
     const deleted = tasks.splice(index, 1);
-    console.log('Task deleted');
-    printTask(tasks[index]);
-
+    console.log('Task deleted :');
+    printTask(deleted[0]);
+    
     writeDB();
 }
 
