@@ -25,6 +25,7 @@ npm install
 ```
 
 3. Make the CLI executable and link it globally:
+
 Windows (run as Administrator if needed)
 ```bash
 npm link
