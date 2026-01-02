@@ -19,7 +19,7 @@ git clone https://github.com/MrRaffs/task-cli/edit/main/README.md
 cd task-cli
 ```
 
-2. Install dependencies (if any):
+2. Install dependencies:
 ```bash
 npm install
 ```
